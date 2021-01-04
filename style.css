@@ -82,3 +82,31 @@ body{
     color: #333333;
     text-align: center;
  }
+/* Bigger devices */
+ @media all and (min-width: 990px) {
+    .container{
+        display: flex;
+        padding: 40px 1px 40px 77px;
+    }
+    .img_content{
+        width: 40%;
+        height: 70vh;
+    }
+    .description{
+        width: 60%;
+        height: 70vh;
+        padding-top: 60px;
+        position: relative;
+    }
+    .title{
+        width: 60%;
+    }
+    .para{
+        width: 35%;
+    }
+    .home_btn{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 0;
+    }
+  }
